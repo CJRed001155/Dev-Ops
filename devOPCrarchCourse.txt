@@ -143,7 +143,7 @@ show platform software yang-management process
 
 @@@csr1000v
 config t
-!username admin privilege 15 secret pass
+username admin privilege 15 secret pass
 ip http secure-server
 ip http authentication local
 restconf
